@@ -1,0 +1,16 @@
+{
+  "name": "anm-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crawler.js",
+  "scripts": {
+    "run": "node crawler.js",
+    "build": "pkg crawler.js --public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.5.2"
+  }
+}

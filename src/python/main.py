@@ -6,7 +6,7 @@ import pandas
 
 HEADLESS_MODE = False
 URL_ANM = "https://sople.anm.gov.br/portalpublico/areas-nominadas/nova"
-FILE_PATH = "data.csv"
+FILE_PATH = "../data.csv"
 
 
 def execute_crawler(process: str) -> bool:

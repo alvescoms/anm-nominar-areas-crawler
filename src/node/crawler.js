@@ -56,7 +56,7 @@ const executeCrawler = async (process) => {
 
 const getData = async () => {
   const response = [];
-  const data = await fs.readFile("data.csv", "utf8");
+  const data = await fs.readFile("../data.csv", "utf8");
 
   data.split(/\r?\n/).forEach((item) => {
     response.push(item.split(";")[0]);
